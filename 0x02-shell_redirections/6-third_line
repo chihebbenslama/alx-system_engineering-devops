@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n 4 ./iacta
+head -n 4 ./iacta

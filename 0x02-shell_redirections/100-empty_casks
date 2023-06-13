@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -path'.*' -printf "%p\n"
+find . -type f -empty -o -type d -empty -path'.*' -printf "%P\n"

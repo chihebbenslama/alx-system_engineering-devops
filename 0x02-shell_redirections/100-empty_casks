@@ -1,2 +1,2 @@
-#!/thi!/bin/bash
+#!/bin/bash
 find . -empty -path'.*' -printf "%f\n"

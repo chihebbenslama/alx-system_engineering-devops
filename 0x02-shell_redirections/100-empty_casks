@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -path'.*' | rev | cat -d'/' | rev
+find . -empty '.*' -printf "%f\n"

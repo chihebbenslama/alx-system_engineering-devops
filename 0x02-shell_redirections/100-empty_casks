@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -o -type d -empty -path'.*' -printf "%P\n"
+find . -empty -path'.*' | rev | cat -d'/' | rev
